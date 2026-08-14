@@ -1,0 +1,21 @@
+{
+    "addr":"0.0.0.0",
+    "port":8431,
+    "cache_dir": "./storage",
+    "listing":true,
+    "protocol":"http",
+    "dont_cache_snapshots":true,
+    "https":{
+        "cert":"./config/cert.pem",
+        "key":"./config/cert-key.pem"
+    },
+    "auth":  [
+    ],
+    "repos": [
+		"https://repo1.maven.org/maven2",
+		"https://maven.aliyun.com/repository/central/",
+		"https://repo2.maven.org/maven2/",
+		"https://maven.aliyun.com/repository/public/"
+    ]
+}
+
