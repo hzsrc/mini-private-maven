@@ -4,6 +4,8 @@ It can serve as an alternative to software such as `Nexus` or `Artifactory` for 
 
 ## Usage
 
+### Maven Server
+
 - Config config.json
 
 
@@ -37,6 +39,8 @@ It can serve as an alternative to software such as `Nexus` or `Artifactory` for 
 
 `node ./proxy.js ./config.json`
 
+
+### Maven client
 
 - Config `settings.xml` of maven
 
